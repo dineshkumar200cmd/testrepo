@@ -1,0 +1,6 @@
+image: ubuntu:latest
+stages:deploy
+testjob: 
+stage:
+-deploy
+echo "hello world"
