@@ -3,4 +3,5 @@ stages:deploy
 testjob: 
 stage:
 -deploy
-echo "hello world"
+script:
+-echo "hello world"
